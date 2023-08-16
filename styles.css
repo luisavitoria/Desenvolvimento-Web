@@ -1,0 +1,65 @@
+
+body {
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+form {
+    width: fit-content;
+    margin: 30px auto;
+}
+
+button {
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 75%;
+}
+
+.button-save {
+    background-color: #61CA9A;
+    color: #fff;
+}
+
+.button-clear {
+    background-color: #e06666;
+    color: #fff;
+}
+
+input[type=text] {
+    border: 2px solid #A9C4E6;
+    width: 300px;
+    padding: 5px;
+}
+
+input[type=date] {
+    width: 300px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: end;
+}
+
+.container-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+legend {
+    text-align: left;
+}

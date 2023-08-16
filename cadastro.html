@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <h1>Cadastro de Usuário</h1>
+
+    <form>
+        <div class="container">
+            <label>Nome</label>
+            <input type="text" />
+        </div>
+
+        <div class="container">
+            <label>E-mail</label>
+            <input type="text" />
+        </div>
+
+        <div class="container">
+            <label>Data de Nascimento</label>
+            <input type="date" />
+        </div>
+
+        <fieldset class="container">
+            <legend>Residência</legend>
+
+            <div class="container-checkbox">
+                <input type="checkbox" id="casa" name="residencia" value="casa" />
+                <label for="casa">Casa</label>
+            </div>
+
+            <div class="container-checkbox">
+                <input type="checkbox" id="predio" name="residencia" value="predio" />
+                <label for="predio">Prédio</label>
+            </div>
+
+        </fieldset>
+
+        <div class="container-buttons">
+            <button type="submit" class="button-save">Salvar</button>
+            <button class="button-clear">Limpar</button>
+        </div>
+    </form>
+</body>
+
+</html>
