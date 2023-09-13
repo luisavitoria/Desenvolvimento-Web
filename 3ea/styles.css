@@ -1,0 +1,63 @@
+
+body {
+    background-color: #f3f3f3;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+form {
+    width: fit-content;
+    margin: 30px auto;
+}
+
+button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 75%;
+}
+
+.button-save {
+    background-color: #61CA9A;
+    color: #fff;
+}
+
+.button-clear {
+    background-color: #e06666;
+    color: #fff;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+legend {
+    text-align: left;
+}
+
+.error {
+    color: #e06666;
+    margin-top: 2px ;
+    margin-bottom: 10px;
+}
+
+
+.remove {
+    margin-top: 50px;
+}
